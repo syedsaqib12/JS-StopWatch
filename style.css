@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color:#999;
+	position: relative;
+}
+.stopwatch{
+	margin: auto;
+	background-color:#FFF;
+	width: 400px;
+	margin-top: 230px;
+	text-align: center;
+	
+
+}
+#result{
+	font-size: 42px;
+	color:#000;
+	font-weight: lighter;
+	padding: 100px 0px 80px 0px;
+	text-shadow: 2px 2px 50px 20px #303030;
+}
+.controls{
+	padding: 0px 0px 30px 0px;
+	margin: 20px 0px;
+}
+button{
+	color: #888;
+	background-color: transparent;
+	border: 0px;
+	font-weight: lighter;
+	padding: 20px;
+	margin: 0px 10px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+#startWatch{
+	background-color:#000;
+	text-align: center;
+    transition: all 0.2s ease-in-out;
+    font-size: x-large;
+}
+#startWatch:hover{
+	background-color: #ff6161;
+
+}
+.fa, .fas {
+    padding: 2px 13px;
+    font-size: x-large;
+}
